@@ -1,0 +1,73 @@
+$date
+	Thu Jan 30 14:30:51 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 3 ! E [2:0] $end
+$var wire 4 " F [3:0] $end
+$var wire 12 # debug [11:0] $end
+$var wire 1 $ S $end
+$var reg 12 % D [11:0] $end
+$scope module fpcvt_ $end
+$var wire 12 & D [11:0] $end
+$var wire 3 ' E [2:0] $end
+$var wire 4 ( F [3:0] $end
+$var wire 12 ) debug [11:0] $end
+$var wire 12 * mag [11:0] $end
+$var wire 1 $ S $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 *
+b0 )
+bz (
+bz '
+b0 &
+b0 %
+0$
+b0 #
+bz "
+bz !
+$end
+#10000
+b1 #
+b1 )
+b1 *
+b1 %
+b1 &
+#20000
+b101010 #
+b101010 )
+b101010 *
+b101010 %
+b101010 &
+#30000
+1$
+b11111111111 #
+b11111111111 )
+b11111111111 *
+b100000000000 %
+b100000000000 &
+#40000
+b1 #
+b1 )
+b1 *
+b111111111111 %
+b111111111111 &
+#50000
+b10010 #
+b10010 )
+b10010 *
+b111111101110 %
+b111111101110 &
+#60000
